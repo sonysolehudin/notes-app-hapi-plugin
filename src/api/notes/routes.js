@@ -2,13 +2,6 @@
 /* eslint-disable eol-last */
 /* eslint-disable linebreak-style */
 /* eslint-disable indent */
-/*const {
-  addNoteHandler,
-  getAllNotesHandler,
-  getNoteByIdHandler,
-  editNoteByIdHandler,
-  deleteNoteByIdHandler,
-} = require('./handler');*/
 
 const routes = (handler) => [
   {
