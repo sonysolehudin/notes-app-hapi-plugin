@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const ClientError = require('./ClientError');
  
 class NotFoundError extends ClientError {
@@ -6,5 +7,4 @@ class NotFoundError extends ClientError {
     this.name = 'NotFoundError';
   }
 }
- 
 module.exports = NotFoundError;
